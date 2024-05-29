@@ -1,0 +1,15 @@
+form label{
+    display: inline-block;
+    width: 150px;
+}
+form div{
+    margin: 20px;
+}
+form{
+    background-color: yellow;
+    display:inline-block;
+    padding: 50px;
+    font-size: 20px;
+    font-style: italic;
+}
+

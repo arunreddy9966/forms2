@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <h1>Create Your Irctc Account</h1>
+        <fieldset>
+        <legend>Personal Details</legend>
+     <div>
+    <label for="uninput">First Name</label>
+     <input id="uninput"/>
+     </div>
+     <div>
+     <label for="psinput">Middle Name</label>
+     <input id="psinput"/>
+     </div>
+    <div>
+     <label for="cpinput">Last Name</label>
+     <input id="cpinput"/>
+    </div>
+    <div>
+        <label for="Userinput">User Name</label>
+        <input id="Userinput"/>
+       </div>
+       <div>
+        <label for="pwinput">Password</label>
+        <input id="pwinput" type="password"/>
+       </div>
+       <div>
+        <label for="cpwinput">Coform Password</label>
+        <input id="cpwinput" type="password"/>
+       </div>
+    <div>
+     <label for="sqinput">Security Question</label>
+     <input id="sqinput"/>
+    </div>
+    <div>
+     <label for="sainput">Security Answer</label>
+     <input id="sainput"/>
+    </div>
+    <div>
+        <label for="eiinput">Email ID</label>
+        <input id="eiinput" type="email"/>
+    </div>
+    <div>
+        <label for="dobinput">Date Of Birth</label>
+        <input id="dobinput" type="datetime-local"/>
+    </div>
+    <div>
+        <label for="pninput">Phone number</label>
+        <input id="pninput" type="number"/>
+    </div>
+    <div>
+        <label>Address</label>
+        <textarea></textarea>
+        </div>
+</fieldset>
+<fieldset>
+    <legend>Basic Details</legend>
+    <div>
+        <label>Select Occupation</label>
+        <input list="Occupation"/>
+        <datalist id="Occupation">
+            <option value="government"></option>
+            <option value="private"></option>
+            <option value="professional"></option>
+            <option value="public"></option>
+        </datalist>
+    </div>
+    <div>
+        <label>Preferred Language</label>
+        <select>
+            <option>telugu</option>
+            <option>english</option>
+            <option>hindi</option>
+        </select>
+        </div>
+        <div>
+        <label>Gender</label>
+        <select>
+            <option>male</option>
+            <option>female</option>
+            <option>transgender</option>
+        </select>
+     </div>
+     <div>
+        <label>Marital Status</label>
+        <select>
+            <option>single</option>
+            <option>married</option>
+        </select>
+     </div>
+     <div>
+        <label>Select City</label>
+        <select>
+            <optgroup label="visakhapatnam">
+            <option>srikakulam</option>
+            <option>vizayanagaram</option>
+            <option>vizag</option>
+            <option>araku</option>
+        </optgroup>
+        <optgroup label="eastgodavari">
+            <option>kakinada</option>
+            <option>rajahmundry</option>
+            <option>amalapuram</option>
+          </optgroup>
+        <optgroup label="westgodavari">
+            <option>tanuku</option>
+            <option>bhimavaram</option>
+            <option>kovvuru</option>
+            <option>eluru</option>
+         </optgroup>  
+         <optgroup label="krihna">
+            <option>vijayawada</option>
+            <option>gudivada</option>
+            <option>machilipatnam</option>
+        </optgroup>
+        <optgroup label="chittor">
+            <option>tirupathi</option>
+            <option>srikalahasti</option>
+            <option>nagari</option>
+        </optgroup>
+        </select>
+        </div>
+        <div>
+            <label>Select District</label>
+            <select>
+            <option>srikakulam</option>
+            <option>vizianagaram</option>
+            <option>parvathipuram manyam</option>
+            <option>alluri sitaramaraju</option>
+            <option>visakhapatnam</option>
+            <option>anakapalli</option>
+            <option>kakinada</option>
+            <option>konaseema</option>
+            <option>east godavari</option>
+            <option>west godavari</option>
+            <option>eluru</option>
+            <option>krishna</option>
+            <option>ntr</option>
+            <option>guntur</option>
+            <option>palnadu</option>
+            <option>bapatla</option>
+            <option>prakasam</option>
+            <option>nellore</option>
+            <option>karnool</option>
+            <option>nandyal</option>
+            <option>anatapuram</option>
+            <option>sri satya sai</option>
+            <option>ysr</option>
+            <option>annamayya</option>
+            <option>tirupathi</option>
+            <option>chittoor</option>
+            </select>
+            </div>
+            <div>
+            <label>Select State</label>
+            <select>
+                <option>arunachalpradesh</option>
+                <option>andhrapradesh</option>
+                <option>assam</option>
+                <option>bihar</option>
+                <option>chattisgarh</option>
+                <option>goa</option>
+                <option>gujarat</option>
+                <option>haryana</option>
+                <option>himachalpradesh</option>
+                <option>jharkhnd</option>
+                <option>karnataka</option>
+                <option>kerala</option>
+                <option>madhyapradesh</option>
+                <option>maharastra</option>
+                <option>manipur</option>
+                <option>meghalaya</option>
+                <option>mizoram</option>
+                <option>nagaland</option>
+                <option>odisha</option>
+                <option>punjab</option>
+                <option>rajastan</option>
+                <option>sikkim</option>
+                <option>tamilnadu</option>
+                <option>telangana</option>
+                <option>tripura</option>
+                <option>uttarpradesh</option>
+                <option>uttarakhnd</option>
+                <option>west bengal</option>
+            </select>
+            </div>
+        </fieldset>
+        <div>
+        <button type="submit">submit</button> 
+        <button type="reset">reset</button> 
+        <button type="button">button</button>
+        </div>
+    </form>
+    
+</body>
+</html>
